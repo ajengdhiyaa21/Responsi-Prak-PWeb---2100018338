@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.2.0-dist/css/bootstrap.css">
+    <style>
+        body{
+            background-image:url(gambar.jpg);
+            background-size: 100%;
+        }
+        .navbar{
+            height: 60 px;
+            top: 0;
+            margin: 0;
+            display: flex;
+            border-bottom: 3px solid darkblue;
+            background-color: aliceblue;
+            background-size: cover;
+        }
+
+        .logo{
+            flex: 1;
+            margin-left: 20px;
+        }
+        .logo a{
+            display: flex;
+            text-decoration: none;
+            color: darkblue;
+            width: 140px;
+        }
+        .logo a:hover{
+            text-decoration: underline;
+        }
+        .logo p{
+            font-size: 20px;
+        }
+
+        .logoku{
+            width: 50px;
+            height: 50px;
+        }
+
+        .menu{
+            flex: 1;
+        }
+
+        .menu ul{
+            display: flex;
+            list-style: none;
+            float: right;
+        }
+
+        .menu li{
+            margin-right: 40px;
+        }
+
+        .menu a{
+            text-decoration: none;
+            color: darkblue;
+        }
+
+        .container{
+            display:flex;
+            height: 100vh;
+        }
+
+        .kiri{
+            flex: 1;
+        }
+        .kanan{
+            flex: 1;
+        }
+        .aku{
+            margin-top: 150px;
+            width: 350px;
+        }
+        .judul{
+            font-size: 30px;
+        }
+        .subjudul{
+            line-height: 0,1;
+        }
+        .nama{
+            font-size: 40px;
+        }
+        .me{
+            margin-top: 95px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="">
+                    <p>TB. Biru</p>
+                    <img src="img/logo.png" alt="" class="logoku">
+                </a>
+            </div>
+            <div class="menu">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a class="nav-link active" arial-current="page" href="index.html"> Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" arial-current="page" href="product.html"> Produk Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" arial-current="page" href="ordernow.php"> Pesan Sekarang</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="kiri">
+                <img src="img/tb.png" alt="" class="aku"></img>
+            </div>
+            <div class="kanan">
+                <div class="me">
+                    <div class="subjudul">
+                        <p class="judul">Selamat Datang Di</p>
+                        <p class="nama" style="color: darkblue;"><u>TB. Biru</u></p>
+                    </div>
+                    <p class="pekerjaan">Kami menjual kebutuhan material bangunan rumah untuk anda.
+                        <br>Material yang kami jual yaitu Paving Block, Batu Split Cor,
+                        Batako, <br> Batu bata merah, Semen, Genteng Pres.  
+                        <br><br><hr style="height: 10px;border:0;box-shadow:0 10px 10px -10px black inset;"> 
+                        <br><b style="color: aliceblue;">Whatsapp &nbsp; : 08210018338
+                            <br>SMS/Telp. &nbsp; : 082100018338
+                            <br>Alamat &nbsp; &nbsp; &nbsp; &nbsp;: Jl. Ringroad Selatan, Krangilan, Tamanan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55191
+                        </b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="background-color:aliceblue ;padding: 10px;text-align:center;">
+    <p>
+        Copyright &copy;2022 | Designed by Ajeng Dhiyaa Putri Qonita
+    </p></footer>
+</body>
+</html>
