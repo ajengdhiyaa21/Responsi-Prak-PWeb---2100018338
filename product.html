@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title> 
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.2.0-dist/css/bootstrap.css">
+    <style>
+        body{
+            background-image:url(gambar.jpg);
+            background-size: 100%;
+        }
+        .navbar{
+            height: 60 px;
+            top: 0;
+            margin: 0;
+            display: flex;
+            border-bottom: 3px solid darkblue;
+            background-color: aliceblue;
+            background-size: cover;
+        }
+        .logo{
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        .logo a{
+            display: flex;
+            text-decoration: none;
+            color: darkblue;
+            width: 140px;
+        }
+
+        .logo a:hover{
+            text-decoration: underline;
+        }
+
+        .logo p{
+            font-size: 20px;
+        }
+
+        .logoku{
+            width: 50px;
+            height: 50px;
+        }
+
+        .product{
+            display: flex;
+            color: darkblue;
+            font-size: x-large;
+            text-decoration: underline;
+        }
+        .menu{
+            flex: 1;
+        }
+
+        .menu ul{
+            display: flex;
+            list-style: none;
+            float: right;
+        }
+
+        .menu li{
+            margin-right: 40px;
+        }
+
+        .menu a{
+            text-decoration: none;
+            color: darkblue;
+        }
+
+        .container{
+            display:flex;
+            height: 60vh; 
+        }
+
+        .s{
+            flex: 1;
+        }
+
+        .d{
+            flex: 1;
+        }
+
+        .t{
+            flex: 1;
+        }
+
+        .sjpg{
+            margin-left: 20px;
+            height: 255px;
+            width: 350px;
+        }
+        .djpg{
+            margin-left: 20px ;
+            margin-right: 20px;
+            height: 255px;
+            width: 350px;
+        }
+
+        .tjpg{
+            margin-right: 20px;
+            height: 255px;
+            width: 350px;
+        }
+
+        .ss{
+            margin-left: 20px;
+            text-align: center;
+            font-size: large;
+            background-color: darkblue;
+            color: lightblue;
+            height: fit-content;
+            width: 350px;
+        }
+
+        .dd{
+            margin-left: 20px ;
+            margin-right: 20px;
+            text-align: center;
+            font-size: large;
+            background-color: darkblue;
+            color: lightblue;
+            height: fit-content;
+            width: 350px;
+        }
+
+        .tg{
+            margin-right: 20px;
+            text-align: center;
+            font-size: large;
+            background-color: darkblue;  
+            color: lightblue;
+            height: fit-content;
+            width: 350px;  
+        }
+        .p{
+            text-align: center; 
+        }  
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="">
+                    <p>TB. Biru</p>
+                    <img src="img/logo.png" alt="" class="logoku">
+                </a>
+            </div>
+            <div class="menu">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a class="nav-link" arial-current="page" href="index.html"> Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link active" arial-current="page" href="product.html"> Produk Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" arial-current="page" href="ordernow.php"> Pesan Sekarang</a></li>
+                </ul>
+            </div>
+        </div>
+        <br><br>
+        <h1 align="center" style="color: darkblue;"> <u> PRODUK KAMI </u></h1>
+        <div class="container">
+            <div class="s">
+                <img src="img/pb.png" alt="" class="sjpg"></img>
+                <p class="ss">Paving Block Bata 8cm <br>Rp85.000/m2</p>
+            </div>
+
+            <div class="d">
+                <img src="img/batukrikil.png" alt="" class="djpg"></img> 
+                <p class="dd">Batu Split Cor <br>Per 1 Truk = Rp1.420.000</p>
+            </div>
+            <div class="t">
+                <img src="img/batako.png" alt="" class="tjpg"></img>
+                <p class="tg">Batako <br>Per 1 Truk(500pcs) = Rp1.150.000</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="s">
+                <img src="img/batubata.png" alt="" class="sjpg"></img>
+                <p class="ss">Batu Bata Merah Ukuran 20 x 10 x 4 cm <br>Per 1 Truk(10.000pcs) = Rp3.800.000</p>
+            </div>
+
+            <div class="d">
+                <img src="img/semen.png" alt="" class="djpg"></img> 
+                <p class="dd">Semen Gresik Ukuran 40kg <br>Rp1.200.000/20sak
+                </p>
+            </div>
+            <div class="t">
+                <img src="img/genteng.png" alt="" class="tjpg"></img>
+                <p class="tg">Genteng Press Ukuran 29 x 21 x 23 cm <br>Per 1 Truk (8.000pcs) = 1.800.000</p>
+            </div>
+        </div>
+        <h4 style="color:red;text-align: center;">*Harga Produk Belum Termasuk Biaya Ongkir Dan Bongkar Muatan <br>
+        Keterangan Lebih Lanjut Silahkan Hubungi Kami</h4><br><br>
+        <h3 align="center">Biaya Kirim Dan Bongkar Muatan</h3>
+        <form action="">
+            <table width="60%" border="1" align="center" style="text-align: center;" >
+                <tr>
+                    <td>Jawa Timur</td>
+                    <td>Jawa Tengah</td>
+                    <td>Jawa Barat</td>
+                    <td>DIY</td>
+                    <td>DKI Jakarta</td>
+                </tr>
+                <tr>
+                    <td>Rp.2.500.000</td>
+                    <td>Rp.2.000.000</td>
+                    <td>Rp.3.200.000</td>
+                    <td>Rp.1.200.000</td>
+                    <td>Rp.3.000.000</td>
+                </tr>
+            </table>
+        </form><br><br>
+        <div class="p">
+            <center>
+            <h2>Metode Pembayaran</h2>
+            <p style="border: 3px solid grey;
+            background-color: aliceblue; width: 330px;
+            background-size: cover;">
+                Bank Mandiri
+            </p>
+            <p style="border-bottom: 3px solid grey;border-right: 3px solid grey;
+            border-left: 3px solid grey; width: 330px;">
+                Nomor Rekening : 210 001 833 8338  <br>
+                Kantor Cabang : Kranggilan<br>
+                Nama Pemilik : Toko Bangunan Biru<br>
+            </p>
+            <p style="border: 3px solid grey;
+            background-color: aliceblue; width: 330px;
+            background-size: cover;">
+                Bank BRI
+            </p>
+            <p style="border-bottom: 3px solid grey;border-right: 3px solid grey;
+            border-left: 3px solid grey; width: 330px; color: lightgray;">
+                Nomor Rekening : 2100 0183 3383 338 <br>
+                Kantor Cabang : Tamanan<br>
+                Nama Pemilik : Toko Bangunan Biru<br>
+            </p>
+            </center>
+        </div>
+    </div>
+    <footer style="background-color:aliceblue ;padding: 10px;text-align:center;">
+        <p>
+            Copyright &copy;2022 | Designed by Ajeng Dhiyaa Putri Qonita
+        </p></footer>
+</body>
+</html> 
